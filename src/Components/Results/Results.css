@@ -1,0 +1,172 @@
+.results-container {
+    margin-top: 150px;
+    position: relative;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    height: 2px;
+    width: 700px;
+    border: none;
+    background: #707070;
+}
+
+.results-title {
+    padding: 10px;
+}
+
+.results-content {
+    width: 100%;
+    max-width: 800px;
+    background-color: #262626;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 75px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-self: center;
+    background-image: linear-gradient(#33333333, #191919);
+}
+
+.result {
+    width: 100%;
+}
+
+.result-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.result-row span {
+    width: 100px;
+    text-align: center;
+}
+
+.circle-container {
+    display: flex;
+    align-items: center;
+}
+
+.empty-circle, .filled-circle, .con-circle, .modcon-circle, .modprog-circle, .prog-circle, .cap-circle, .modcap-circle, .modsoc-circle, .soc-circle, .auth-circle, .modauth-circle, .modlib-circle, .lib-circle {
+    display: inline-block;
+    width: 40px !important; /* Adjust this value as needed */
+    height: 40px !important; /* Ensure the height matches the width */
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 2px solid #000;
+}
+
+.empty-circle {
+    background-color: #fff;
+}
+
+.filled-circle {
+    background-color: #666666;
+}
+
+.con-circle {
+    background-color: #4464ff;
+}
+
+.modcon-circle {
+    background-color: #445477;
+}
+
+.modprog-circle {
+    background-color: #775f44;
+}
+
+.prog-circle {
+    background-color: #df9922;
+}
+
+.cap-circle {
+    background-color: #22cc22;
+}
+
+.modcap-circle {
+    background-color: #448844;
+}
+
+.modsoc-circle {
+    background-color: #894333;
+}
+
+.soc-circle {
+    background-color: #dd4444;
+}
+
+.auth-circle {
+    background-color: #8844ff;
+}
+
+.modauth-circle {
+    background-color: #5538aa;
+}
+
+.modlib-circle {
+    background-color: #8f8f44;
+}
+
+.lib-circle {
+    background-color: #dddd22;
+}
+
+/* New styles for the party similarity list */
+.party-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.party-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 18px;
+}
+
+.party-list-item:last-child {
+    margin-bottom: 0;
+}
+
+.party-list-item .party-name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.party-list-item .party-difference {
+    font-size: 16px;
+    color: #aaa;
+}
+  
+  .party-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .progress-bar {
+    flex-grow: 1;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 10px;
+  }
+  
+  .progress {
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+  }

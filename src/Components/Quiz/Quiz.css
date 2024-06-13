@@ -1,0 +1,106 @@
+.container{
+    width: 640px;
+    margin: auto;
+    margin-top: 150px;
+    background: #262626;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+    z-index: 10;
+    position: 'relative';
+    cursor: default;
+    background-image: linear-gradient(#33333333, #191919);
+
+}
+
+.container hr{
+    height: 2px;
+    border: none;
+    background: #707070;
+}
+
+.container h2{
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.container ul li{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 4px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.container ul li.strongly-agree {
+    border-color: #006400; 
+}
+
+.container ul li.somewhat-agree {
+    border-color: #477d3c;
+}
+
+.container ul li.somewhat-disagree {
+    border-color: #7d3c3c;
+}
+
+.container ul li.strongly-disagree {
+    border-color: #8B0000;
+}
+
+
+
+.container ul li.strongly-agree:hover {
+    background-color: #006400;
+    border-color: white;
+}
+
+.container ul li.somewhat-agree:hover {
+    background-color: #477d3c;
+    border-color: white;
+}
+
+.container ul li.neutral:hover {
+    background-color: #686868; 
+    color: white; 
+    border-color: white;
+}
+
+.container ul li.somewhat-disagree:hover {
+    background-color: #7d3c3c;
+    border-color: white;
+}
+
+.container ul li.strongly-disagree:hover {
+    background-color: #8B0000;
+    border-color: white;
+}
+
+
+
+
+
+.container button.next{
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    background: #656565;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container .index {
+    margin: auto;
+    font-size: 18px;
+}

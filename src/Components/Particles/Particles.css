@@ -1,0 +1,14 @@
+*{
+    z-index: -3;
+}
+
+
+.gradient-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #aa176c 0%, #030015 100%);
+    z-index: -10;
+  }
